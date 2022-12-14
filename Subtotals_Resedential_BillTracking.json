@@ -1,0 +1,37 @@
+[
+	{
+		SubTotal_WaterFor20kl(P818) : WaterFor20kl_MonthlyDeductions
+		SubTotal_WaterUnderADF(Q818) : WaterUnderADF_MothlyDeductions
+		SubTotal_MaintenanceUnderADF(R818) : MaintenanceUnderADF_MonthlyDeductions
+		SubTotal_SecurityUnderADF(S818) : SecurityUnderADF_MonthlyDeductions
+		SubTotal_Dec2022_Units(T818) : Dec2022_Units
+		SubTotal_Water_Arrears(U818) : Water_Arrears
+		SubTotal_Maintenance_Arrears(V818) : Maintenance_Arrears
+		SubTotal_Security_Arrears(W818) : Security_Arrears
+		SubTotal_AsPer_Tarrif(X818) : AsPer_Tarrif
+		SubTotal_Cess(Y818) : Cess
+		SubTotal_Water_Demand (Z818) : Water_Demand
+		SubTotal_Maintenance_Demand(AA818) : Maintenance_Demand
+		SubTotal_Security_Demand(AB818) : Security_Demand
+		SubTotal_Water_TotalReceivable(AC818) : Water_TotalReceivable
+		SubTotal_Maintenance_TotalReceivable(AD818) : Maintenance_TotalReceivable
+		SubTotal_Security_TotalReceivable(AE818) : Security_TotalReceivable
+		SubTotal_WaterFor20kl_DeductionFor_Dec22(AG818) : WaterFor20kl_DeductionFor_Dec22
+		SubTotal_WaterUnderADF_DeductionFor_Dec22(AH818) : WaterUnderADF_DeductionFor_Dec22
+		SubTotal_MaintenanceUnderADF_DeductionFor_Dec22(AI818) : MaintenanceUnderADF_DeductionFor_Dec22
+		SubTotal_SecurityUnderADF_DeductionFor_Dec22(AJ818) : SecurityUnderADF_DeductionFor_Dec22
+		SubTotal_Water_NetReceivable(AK818) : Water_NetReceivable
+		SubTotal_Maintenance_NetReceivable(AL818) : Maintenance_NetReceivable
+		SubTotal_Security_NetReceivable(AM818) : Security_NetReceivable
+		SubTotal_Total_NetReceivable(AM818) : Total_NetReceivable
+		SubTotal_Water_CollectionReceived(AQ818) : Water_CollectionReceived
+		SubTotal_Maintenance_CollectionReceived(AR818) : Maintenance_CollectionReceived
+		SubTotal_Security_CollectionReceived(AS818) : Security_CollectionReceived
+		SubTotal_Water_ClosingBalance(AT818) : Water_ClosingBalance
+		SubTotal_Maintenance_ClosingBalance(AU818) : Maintenance_ClosingBalance
+		SubTotal_Security_ClosingBalance(AV818) : Security_ClosingBalance
+		SubTotal_IntrestForDelay@12% : InterestFor_Delay@12%
+
+
+	}
+]

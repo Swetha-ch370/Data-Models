@@ -1,0 +1,53 @@
+[
+	{
+		SI.NO:1, B9
+		Type :       ,(resedential/commercial/vacant plots)
+		Name:"Prabhakar Reddy", C9
+		GHMC PTIN:"NO PTIN",D9
+		Plot_Number:1,E9
+		Groun_Floor:"G+",F9
+		Maintanence_Rate:50,G9
+		Security_Rate:150,H9
+		No.of_Floors:3,I9
+		Maintenance_Rate1:50, (extra_floor*No.of_Floors ),J9
+		Security_Rate1:150 (extra_floor*No.of_Floors),K9
+		Tarrif_Category:'E',L9
+		Eligible_Units:52,M9
+		ADF_Status:"adf paid",N9
+		Uploaded_In_HMV:"yes",O9
+		Water_For20KL:270,P9
+		Water_UnderADF:30,Q9
+		Maintenance_UnderADF:50,R9
+		Security_UnderADF:150,S9
+		TotalUnits_Consumed(In Month):31,T9
+		Water_Arrears:873,U9
+		Maintenance_Arrears:200,V9
+		Security_Arrears:300,W9
+		AsPer_Tarrif:816,X9 (TotalUnits_Consumed*16)
+		Cess:120,Y9
+		Water_Demand:936,Z9
+		Maintenance_Demand:50,AA9 (Maintanence_Rate+Maintenance_Rate1)
+		Security_Demand:300,AB9 (Security_Rate1+Security_Rate)
+		TotalReceivable_Water:320,AC13 (Water_Arrears+Water_Demand)
+		TotalReceivable_Maintenance:100,AD9 (Maintenance_Arrears+Maintenance_Demand)
+		TotalReceivable_Security:200,AE9 (Security_Arrears+Security_Demand)
+		Total:2659,AF9 (TotalReceivable_Water+TotalReceivable_Maintenance+TotalReceivable_Security) - 
+		WaterFor20kl_DeductionFor_Dec22:270,AG13
+		WaterUnderADF_DeductionFor_Dec22:30,AH13
+		MaintenanceUnderADF_DeductionFor_Dec22:50,AI9
+		SecurityUnderADF_DeductionFor_Dec22:150,AJ9
+		WaterNet_Receivable:20,AK13 (TotalReceivable_Water - WaterFor20kl_DeductionFor_Dec22 - WaterUnderADF_DeductionFor_Dec22)
+		MaintenanceNet_Receivable:50,AL13 (TotalReceivable_Maintenance - MaintenanceUnderADF_DeductionFor_Dec22)
+		SecurityNet_Receivable:50,AM13 (Total_Receivable_Security - SecurityUnderADF_DeductionFor_Dec22)
+		TotalNet_Receivable:120,AN13   (WaterNet_Receivable + SecurityNet_Receivable + SecurityNet_Receivable)
+		ReceiptNumber_CollectionReceived:2500,A013
+		ReceivedOn_CollectionReceived:"21-12-2022",AP13
+		Water_CollectionReceived:20,AQ13
+		Maintenance_CollectionReceived:50,AR13
+		Security_CollectionReceived:50,AS13
+		Water_ClosingBalance:0,AT13 (TotalReceivable_Water - WaterFor20kl_DeductionFor_Dec22 - WaterUnderADF_DeductionFor_Dec22 - Water_CollectionReceived)
+		Maintenance_ClosingBalance:0,AU13 (TotalReceivable_Maintenance - MaintenanceUnderADF_DeductionFor_Dec22 - Maintenance_CollectionReceived)
+		Security_ClosingBalance:0,AV13 (TotalReceivable_Security - SecurityUnderADF_DeductionFor_Dec22 - Security_CollectionReceived)
+		InterestFor_Delay@12%_PerMonth:5,AW64
+	}
+]

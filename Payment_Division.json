@@ -1,0 +1,10 @@
+[
+	{
+		
+		ReceiptsBy_Cash :" " ,BC950
+		ReceiptsBy_Cheque/QR/Onine/Swipe : " "   ,BC951
+		ReceiptsBy_NoBrokerhood :" ",BC952
+	}
+	Total:ReceiptsBy_Cash + ReceiptsBy_Cheque/QR/Onine/Swipe + ReceiptsBy_NoBrokerhood
+
+]

@@ -1,0 +1,23 @@
+[
+
+	{
+		Name : "G.Ramanand",AY977
+		PlotUsed_For : "ShopNumber 24",AZ977
+		Receipt_Number : QR4629,BA977
+		Date : 09-12-2022,BB977
+		Rent : 4485,BC977
+		GST  : 807,BD977
+		TDS  :  0,BE977
+		Other_Charges : 0,BF977
+		Total : 5292,BG977 (Rent + GST - TDS + Other_Charges)
+	
+	},
+	{
+	
+			Total_Rent : Rent,BC991
+			Total_GST : GST,BD991
+			Total_TDS : TDS,BE991
+	}
+
+
+] 

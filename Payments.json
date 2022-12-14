@@ -1,0 +1,21 @@
+[
+{
+		Date:01-12-2022,AY835
+		Receipt_Number:4552,AZ835
+		ModeOf_Payment:Online,BA835
+		Plot_Number:789,BB835
+		Water::588,BC835
+		Maintenance:100,BD835
+		Security:100,BE835
+		NumberOf_Plots:2,BF836
+		AA:919,BG846
+		BB:14,BH836
+		water:' '    ,BI835
+		maintenance:  ,BJ835
+		security:      ,BK835
+		Security_Charges:      ,BL835
+		Late_Charges:  ,BM835
+					
+}
+
+]
